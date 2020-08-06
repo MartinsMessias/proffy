@@ -7,7 +7,6 @@ import { useHistory } from "react-router-dom";
 import "./styles.css";
 import Textarea from "../../components/TextArea";
 import Select from "../../components/Select";
-import { stringify } from "querystring";
 import api from "../../services/api";
 
 function TeacherForm() {
@@ -43,7 +42,7 @@ function TeacherForm() {
       })
       .then(() => {
         alert("Cadastro realizado com sucesso!");
-        history.push('/');
+        history.push("/");
       })
       .catch(() => {
         alert("Erro no cadastro!");
