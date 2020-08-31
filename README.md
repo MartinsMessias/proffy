@@ -58,10 +58,10 @@ A proposta do projeto é uma aplicação que possa ligar quem deseja aprender, c
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/gabiqrm/nlw/
+git clone https://github.com/MartinsMessias/proffy/
 
 # Entrar no diretório
-cd nlw
+cd proffy
 
 # Baixar as dependências
 npm i
